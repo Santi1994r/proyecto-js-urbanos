@@ -3,7 +3,7 @@ const remeras = [{
         id: 1,
         producto: "remera",
         precio: 2000,
-        talle: ["S", "M", "L", "XL"],
+        talle: "L",
         modelo: "con estampa",
         color: "rojo"
     },
@@ -13,39 +13,39 @@ const remeras = [{
         precio: 1800,
         talle: "L",
         modelo: "algodon elastizado",
-        color: ["roja", "negra", "blanca", "azul"]
+        color: "verde"
     },
     {
         id: 3,
         producto: "remera",
         precio: 1600,
-        talle: ["S", "M", "L", "XL"],
+        talle: "M",
         modelo: "algodon",
-        color: ["roja", "negra", "blanca", "azul"]
+        color: "azul"
     },
     {
         id: 4,
         producto: "remera",
         precio: 1600,
-        talle: ["M", "L", "XL"],
+        talle: "XL",
         modelo: "algodon",
-        color: ["roja", "negra", "blanca", "azul"]
+        color: "gris"
     },
     {
         id: 5,
         producto: "remera",
         precio: 1600,
-        talle: ["S", "M", "L", "XL"],
+        talle: "L",
         modelo: "lisa",
-        color: ["roja", "negra", "blanca", "azul"]
+        color: "negra"
     },
     {
         id: 6,
         producto: "remera",
         precio: 2200,
-        talle: ["S", "M", "L", "XL"],
+        talle: "S",
         modelo: "manga larga",
-        color: ["roja", "negra", "blanca", "azul"]
+        color: "blanca"
     }
 ];
 
@@ -61,25 +61,25 @@ const camperas = [{
         id: 002,
         producto: "campera",
         precio: 6000,
-        talle: ["S", "M", "L", "XL"],
+        talle: "XL",
         modelo: "con plumas",
-        color: "verde"
+        color: "azul"
     },
     {
         id: 003,
         producto: "campera",
         precio: 8000,
-        talle: ["S", "M", "L", "XL"],
+        talle: "M",
         modelo: "parka",
-        color: ["negra", "azul"]
+        color: "Rojo"
     },
     {
         id: 004,
         producto: "campera",
         precio: 7500,
-        talle: ["M", "L", "XL"],
+        talle: "L",
         modelo: "con peluche",
-        color: ["negra", "azul"]
+        color: "negra"
     }
 ];
 
@@ -95,17 +95,17 @@ const camisas = [{
         id: 102,
         producto: "camisa",
         precio: 4500,
-        talle: ["S", "M", "L", "XL"],
+        talle: "S",
         modelo: "rallada",
-        color: ["negra", "blanca"]
+        color: "negra"
     },
     {
         id: 103,
         producto: "camisa",
         precio: 4200,
-        talle: ["S", "M", "L", "XL"],
+        talle: "M",
         modelo: "lisa",
-        color: ["negra", "blanca"]
+        color: "blanca"
     }
 ];
 
