@@ -134,11 +134,11 @@ const buzos = [{
         color: "negro"
     }
 ]
-/* const catalogo = [remeras,camperas,camisas,buzos]; */
 
 
-/* console.log(productos[3].talle)// Aca me talle solamente los talles del id 4 */
-//Aca creo con arrow function para generar un msj
+
+
+
 let preguntaBienvenida = "";
 //funcion con la primera pregunta
 function preguntaUno() {
