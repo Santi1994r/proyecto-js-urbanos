@@ -194,8 +194,9 @@ while (preguntaBienvenida !== "salir" || preguntaBienvenida !== "SALIR") {
         let cantidadCamisas = Number(prompt("Cuantos camisas quiere comprar?"));
         agregarProducto(idCamisa, cantidadCamisas, camisas);
     } else if (preguntaBienvenida === "camperas" || preguntaBienvenida === "CAMPERAS" || preguntaBienvenida === "campera" || preguntaBienvenida === "CAMPERA") {
-        const camp = catalogo.forEach((el) => el.camperas);
-        alert(camp);
+        let idcampera = Number(prompt("Ingrese el codigo de la campera a comprar: " + "\n" + camperas.map(el => `\n codigo: ${el.id} - modelo: ${el.modelo}`)));
+        let cantidadCamperas = Number(prompt("Cuantas camperas quiere comprar?"));
+        agregarProducto(idcampera, cantidadCamperas, camperas);
     } else if (preguntaBienvenida === "salir" || preguntaBienvenida === "SALIR") {
 
         alert("gracias por su compra. Su recibo es: " +
